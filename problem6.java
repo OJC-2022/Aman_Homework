@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//check the number is prime or not;
 public class problem6 {
     public static boolean isPrime(int num){
         if(num==0 || num==1) return false;
