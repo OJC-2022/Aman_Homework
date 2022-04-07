@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//find the lcm and hcf of two numbers;
 public class problem7 {
     public static int getHCF(int num1,int num2){
         int hcf=1;
