@@ -15,32 +15,32 @@ public class MiniCalculator{
             int choice=sc.nextInt();
             switch(choice){
                 case 1:
-                    System.out.print("Enter two numbers : ");
+                    System.out.print("Enter two integer numbers : ");
                     int a=sc.nextInt();
                     int b=sc.nextInt();
                     System.out.println(a+b);
                     break;
                 case 2:
-                    System.out.print("Enter two numbers : ");
+                    System.out.print("Enter two integer numbers : ");
                     int a1=sc.nextInt();
                     int b1=sc.nextInt();
                     System.out.println(a1-b1);
                     break;
                 case 3:
-                    System.out.print("Enter two numbers : ");  
+                    System.out.print("Enter two integer numbers : ");  
                     int a2=sc.nextInt();
                     int b2=sc.nextInt();
                     System.out.println(a2*b2);
                     break;
                 case 4:
-                    System.out.print("Enter two numbers : ");
+                    System.out.print("Enter two integer numbers : ");
                     int a3=sc.nextInt();
                     int b3=sc.nextInt();
                     if(b3==0) System.out.println("OOPS....!! division by Zero!!");
                     else System.out.println(a3/b3);  
                     break;
                 case 5:  
-                    System.out.print("Enter two numbers : ");
+                    System.out.print("Enter two integer numbers : ");
                     int a4=sc.nextInt();
                     int b4=sc.nextInt();
                     if(b4==0) System.out.println("OOPS....!! division by Zero!!");
