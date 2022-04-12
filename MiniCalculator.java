@@ -47,7 +47,10 @@ public class MiniCalculator{
                     else System.out.println(a4%b4);  
                     break;    
                 case 6:
-                    return;      
+                    return;  
+                default:
+                    System.out.println("Invalid Choice!!"+"\nPlease choose valid choice");
+                    break;
             }
             
         }while(true);
