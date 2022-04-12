@@ -44,7 +44,7 @@ public class MiniCalculator{
                     int a4=sc.nextInt();
                     int b4=sc.nextInt();
                     if(b4==0) System.out.println("OOPS....!! division by Zero!!");
-                    else System.out.println(a4/b4);  
+                    else System.out.println(a4%b4);  
                     break;    
                 case 6:
                     return;      
